@@ -82,11 +82,11 @@ const Header = () => {
                     <div>
                         {/* login button yha lagega */}
                         <Link to='/login'>
-                            <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex item-center justify-center rounded-[50px]">Login</button>
+                            <button className="bg-primaryColor  py-2 px-6 text-white font-[600] h-[44px] flex item-center justify-center rounded-[50px]" ref={headerRef}>Login</button>
 
 
                         </Link>
-                        <span className="md:hidden display-flex" onClick={toggleMenu}>
+                        <span className="md:hidden display-flex" onClick={toggleMenu} >
                             <BiMenu className='w-6 h-6cursor-pointer' />
 
 
